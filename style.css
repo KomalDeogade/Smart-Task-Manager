@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #232526, #414345);
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1bd760;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Input and Button */
+input {
+  padding: 0.75rem;
+  width: 300px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-right: 1rem;
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background-color: #1bd760;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #17b857;
+}
+
+/* Task List Styling */
+ul {
+  margin-top: 2rem;
+  list-style-type: none;
+  width: 100%;
+  max-width: 500px;
+}
+
+li {
+  background-color: #ffffff20;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Delete button style */
+.delete {
+  background-color: #e74c3c;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+}
